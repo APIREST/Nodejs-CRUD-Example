@@ -3,7 +3,7 @@ How to:
 1) Install Nodejs and Mongodb on your system.
 2) Run "npm install" on root directory.
 3) Run "node server.js" on root directory.
-4) Test locally the app by entering "localhost:3001/musicians" on any browser.
+4) Import example documents by entering "localhost:3001/import" on your browser.
 5) Test updates locally with, ie:
 
 curl -i -X PUT -H 'Content-Type: application/json' -d '{"band": "BBQ Brawlers"}' http://localhost:3001/musicians/535fe13ac688500000c2b28b
